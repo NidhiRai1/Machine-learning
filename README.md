@@ -55,8 +55,10 @@ where their is alpha = learning rate which tells how big small ateps are you tal
 
 
 
-
-
+//problem of overfitting -
+underfitting - not fitting the data very well , high bias , if they have less no. of features
+generalization for new examples , fit the tranning set pretty well
+overfitting - here error is zero , over fit the data , high variance , if their are too much features then this will hsappen
 
 
 

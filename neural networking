@@ -31,3 +31,5 @@ ReLU is by far the common choise
 //why ReLU is most common in most of the places for hidden layer 
 coz it's faster then sigmoid
 and sigmoid function is flat at two part of the graph where as ReLU is one due to that gradient descent got slow in that parts
+
+//why we need activation function in neural networks - coz then it won't solve anything else apart from linear regression model g(z) = z = w.x + b

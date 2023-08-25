@@ -41,3 +41,6 @@ Softmax - generalised
 //Advance optimization thrn gradient descent -
 Adam (adaptive moment estimation) - algorithum - if it's see learning rate is too small and we are taking tiny strps to reach to the minima then it increases the value of learning rate to make the process faster (if it's going in the same direction)
 if it's going back and forth then clearly learning rate too high then it decreases the value of learning rate so that we can reach the minima 
+
+//CONVOLUTIONAL LAYER - WHEN NEURAL LOOK AT THE PART OF PREVIOUS LAYER INPUT -
+WHY ? - FASTER THE COMPUTATION AND NEED LESS TRNING DATA SO LESS CHAMCE OF OVERFITTING

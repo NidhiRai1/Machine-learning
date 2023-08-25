@@ -51,13 +51,21 @@ DIVIDE THE DATA  IN 3 PART TRAIN /CROSS VALIDATION /TEST SET
 CROSS -VALIDATION SET - MEANS THIS IS THE EXTRA DATESET WHICH WE ARE  GOING TO USE TO CHECK THE VALIDITY AND ACCURACY OF DFFERENT MODELS
 
 //VARIANCE/BYAS - 
-UNDERFITTING ARE HIGH BIAS , HIGH Jcv , HIGH J train ,j cv = j train ,lemda of regularisation is low here , degree of polynomial is low
+UNDERFITTING ARE HIGH BIAS , HIGH Jcv , HIGH J train ,j cv = j train ,lemda of regularisation is low here , degree of polynomial is low , 
 overfitting - high variance , low Jtrain , high Jcv ,j cv >  j train , lamda for regularisation is high ,degree of polynomial is high
+get more traning set - fix high variance
+get small set of features - fix high variance
+try getting additional feature - fix hihg bias
+try getting high polynomial features - fix high bias
+increasing lemda of regularisation - fix high bias 
 
+//IN NEURAL NETWORK HIGH BIAS/VARIANCE CAN BE REDUCE BY
+TRANNING YOUR ALGORITHUM ON TRANING SET 
+if dose not doing well then their is high bias problem solve by adding more hidden layer in the neural network
+ dose it do well on cross validation set 
+if not then their is high variance problem solved by retranning the neural network with more data
 
-
-
-
+this is a great way to resolve high bias/variance problem only limitation is after a point it's hard to get more dat and 
 
 
 

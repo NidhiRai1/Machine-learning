@@ -13,3 +13,21 @@ model = seqential(layer_1 , layer_2) //after line 5 and 7
 1.specify the model which tell tensser flow how to compute for inference
 2.compile the model using specific loss function
 3.train the model
+
+//common activation functions 
+z = w bar ' x bar + b
+1.linear activation function - g(z) = z
+2. sigmoid - g(z) = 1/(1 + e*-z)
+3.ReLU - g(z) = max(0 , z) if z < 0 then g(z) is 0 else g(z) is z
+
+//how to choose the activation for different neural network
+basically by keeping in mind what type of output your are trying to predict 
+*for binary classification problem for chooises b/w 0 or 1 then use sigmoid activation function
+*in case regression (like todays stock price will go up or down from tommorow either + or -) use linear activation function
+*in case of regression (like price of house always +) use ReLU 
+for hidden layer 
+ReLU is by far the common choise
+
+//why ReLU is most common in most of the places for hidden layer 
+coz it's faster then sigmoid
+and sigmoid function is flat at two part of the graph where as ReLU is one due to that gradient descent got slow in that parts

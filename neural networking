@@ -1,0 +1,15 @@
+their are different hiddden layer(type is dense layer) in the neural net , named layer 1 , 2...... , layer 0 is the input layer and the last layer is the output layer
+we have learned by forwared propogation with examples like digits/handwritting recogonation 
+//tenserflow is one of the laeding framework to implement deep learning algorithum
+x = np.array([200.0 , 290.0])
+layer_1 = dense(unit = 3 , activation = 'sigmoid')
+a1 = layer_1(x)
+layer_2 = dense(unit = 1 , activation = 'sigmoid')
+a2 = layer_2(a1)
+model = seqential(layer_1 , layer_2) //after line 5 and 7
+ seqential([dense(unit 3 , activation = 'sigmoid'),dense(unit 1 , activation = 'sigmoid')]) //avoid all the above line an d write this
+
+//how to trsain the model -
+1.specify the model which tell tensser flow how to compute for inference
+2.compile the model using specific loss function
+3.train the model

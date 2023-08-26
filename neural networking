@@ -102,9 +102,14 @@ Conversely, since random forests use only a few predictors to build each decisio
 meaning that the random forest algorithm model is unlikely to outperform the dataset. As mentioned earlier, decision trees usually overwrite the training data - 
 meaning they are more likely to match the "noise" in the dataset than the actual underlying model
 
-//XGBOOSTING - it is a boosting which focus on that part of the decision tree trained so far which were not working well and making them work on that subset of
+//BOOSTING tree traning set- it is a boosting which focus on that part of the decision tree trained so far which were not working well and making them work on that subset of
 traning set not doing well and boosting them through next decision tree
 
+//XGBOOST-
+*open source way form boosting tree
+*improve the efficency and implementation
+*good choise of default spliting and stoping spliting criteria
+*built in regurarization for avoiding overfitting
 
 
 

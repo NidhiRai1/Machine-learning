@@ -68,14 +68,42 @@ if not then their is high variance problem solved by retranning the neural netwo
 this is a great way to resolve high bias/variance problem only limitation is after a point it's hard to get more dat and 
 
 
+//decision tree -
+1.entropy - it is a measure of impurity at each node of the decision tree , nodes with large numbers of examples 
+and still it's entropy is high is worst then once with less eample but high entropy
+*in decision tree spliting the nodes are based on the features that reduce the 
+entropy and lead to 100% purity at the end so , that no further division of nodes will tke palce
+2. information gain - in decision tree reduction of enteopy is called information gain   
+    choose the one with higher information gain is more pure
+*but for most of the cases the single decision tree is highlly sensitive to data and to make this lss sensitive to data have multiple decision tree
+----advatnages - it can adapt quickly to the data set
+//random forest tree algorithum - use smaple with replacement lead to construct new traning set 
 
+Random Forest vs Decision Tree: Key Differences.
+//Decision Tree
+ 
+As the name suggests, this algorithm builds its model in the structure of a tree along with decision nodes and leaf nodes. Here decision nodes are in order of two or more branches,
+whereas the leaf node represents a decision. A decision tree is used to handle categorical and continuous data. It is a simple and effective decision-making diagram.
 
+As one can see, trees are an easy and convenient way to visualize the results of algorithms and understand how decisions are made. The main advantage of a decision
+tree is that it adapts quickly to the dataset. The final model can be viewed and interpreted in an orderly manner using a "tree" diagram. Conversely, since the random
+forest algorithm builds many individual decision trees and then averages these predictions, it is much less likely to be affected by outliers.
 
+ //random forest tree 
+ 
+Also, a supervised machine learning algorithm works on both classification and regression tasks. The forest has almost the same 
+hyperparameters as a decision tree. Its ensemble method of decision trees is generated on randomly split data. This entire group 
+is a forest where each tree has a different independent random sample.
 
+In the case of the random forest algorithm, many trees can make the algorithm too slow and inefficient for real-time prediction. 
+In contrast, the results are generated based on randomly selected observations and features built on different decision trees in the random forest algorithm. 
 
+Conversely, since random forests use only a few predictors to build each decision tree, the final decision trees tend to be decorrelated,
+meaning that the random forest algorithm model is unlikely to outperform the dataset. As mentioned earlier, decision trees usually overwrite the training data - 
+meaning they are more likely to match the "noise" in the dataset than the actual underlying model
 
-
-
+//XGBOOSTING - it is a boosting which focus on that part of the decision tree trained so far which were not working well and making them work on that subset of
+traning set not doing well and boosting them through next decision tree
 
 
 

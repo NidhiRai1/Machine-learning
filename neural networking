@@ -111,7 +111,11 @@ traning set not doing well and boosting them through next decision tree
 *good choise of default spliting and stoping spliting criteria
 *built in regurarization for avoiding overfitting
 
-
+//clustering - unsupervised 
+//K-mean algorithum - for cluster find the avergarge of diatance nd assign that value to it again that the distances from different clusters and take average assign
+till the value converges or not going to change
+this algorithum is optimizing the cost function meansit is girentee that it going to converge
+i.e after every iteration the distortion cost function is go down and when it goes up then their is a bug in the code
 
 
 

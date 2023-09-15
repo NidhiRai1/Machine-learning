@@ -98,4 +98,16 @@ from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import NearMiss
 nr = NearMiss()
 
+--             - relation between dependent nad independent variable .
+--linear regression - relations between dependent and independent variable or response and feature variable should be linear.
+   //fails for non-linear data craet the problem of underfitting resolve by polynomial regression
+--multiple linear regression - feature matrix of n*p and a response mtrix of n row . y(dependent or response) = b + bx + b2x' +b3x''...
+      from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn import datasets, linear_model, metrics
+--polynomial regression - y = w0 + w1x + w2x^2 + ....
+--baysian regression - it is a type of liner regression where goal is to estimate the parameters o linear models that 
+satisfy the relationship b/w dependent and inde best , effecient when dataset is small but it's time consuming
+--quantile regression - Quantile regression constructs a relationship between a group of independent variables and dependent variables. 
 

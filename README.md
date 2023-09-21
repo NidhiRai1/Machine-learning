@@ -112,3 +112,9 @@ satisfy the relationship b/w dependent and inde best , effecient when dataset is
 --quantile regression - Quantile regression constructs a relationship between a group of independent variables and dependent variables. 
 
 --NLP algorithms analyze, process, and interpret text-based data, while generalized ML algorithms focus more on other types of data, such as numeric data or image
+
+--tree based modeling can able to detected non - linear relationships , handeling categorical data
+--decision tree - easy to interpret
+--forest tree - no. of trees are added together and each tree trained with random set of data . and trees pridications won't depend on each other , hard to interpret
+--gradient boasting - no. of tree are added but not in the parallel way these tree depend on each other , this will able to reduce the error of previous boasting tree , hard to interpret 
+            their cause overfitting problem reduce by 

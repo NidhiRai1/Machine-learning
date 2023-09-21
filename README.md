@@ -111,3 +111,4 @@ from sklearn import datasets, linear_model, metrics
 satisfy the relationship b/w dependent and inde best , effecient when dataset is small but it's time consuming
 --quantile regression - Quantile regression constructs a relationship between a group of independent variables and dependent variables. 
 
+--NLP algorithms analyze, process, and interpret text-based data, while generalized ML algorithms focus more on other types of data, such as numeric data or image

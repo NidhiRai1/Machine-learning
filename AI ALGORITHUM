@@ -1,0 +1,12 @@
+convalution is use for image data 
+
+structure - well defined database/user data 
+unstructer data - raw data eg - nlp 
+
+in sigmodi function the slope tends to 0 which means that the parameter change very slowlly 
+in case relu the slope is always same means change in also their at a high rate at every point (greadent desent work very faster here )
+
+logistic recgonation(0/1) for binary classification cat or dog .
+ what is chance that it is the picture of cat
+
+loss error y - y'
